@@ -93,13 +93,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="container-fluid bg-light">
+                        <div class="container-fluid bg-light align-items-center">
                             <div class="container px-0">
                                 <nav class="navbar navbar-expand-xl navbar-light py-3">
                                     <div class="container-fluid p-0 align-items-center">
-                                        <a href="index.html" class="">
-                                            <h1 class="font-logo display-4 m-0 cafe-noir">VEL SPA</h1>
-                                        </a>
+                                        <div class="col-5 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                                            <a href="index.html" >
+                                                <img src="../img/logo/logo-brown.png" class="img-fluid" alt="vel spa logo">
+                                            </a>
+                                        </div>
                                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon cafe-noir "></span>
                                         </button>
