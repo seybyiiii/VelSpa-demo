@@ -218,6 +218,7 @@ body.fade-in {
 /*** Topbar End ***/
 
 /*** Navbar Start ***/
+
 .navbar .navbar-nav .nav-link {
     padding: 10px 15px;
     font-size: 16px;
@@ -704,9 +705,17 @@ video {
     .about-btn {
         justify-content: center !important;
     }
+
+    .display-4 {
+        margin-bottom: 0px;
+    }
 }
 
 @media (max-width: 320px) {
+    .display-4 {
+        margin-bottom: 0px;
+    }
+
     .about-img1 {
         height: 450px;
     }
