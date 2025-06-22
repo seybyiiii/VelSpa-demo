@@ -96,11 +96,9 @@
                         <div class="container-fluid bg-light">
                             <div class="container px-0">
                                 <nav class="navbar navbar-light navbar-expand-xl align-items-center">
-                                    <div class="p-0 m-0">
                                         <a href="index.html" class="">
                                             <h1 class="font-logo display-4 cafe-noir">VEL SPA</h1>
                                         </a>
-                                    </div>
                                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                         <span class="fa fa-bars cafe-noir"></span>
                                     </button>

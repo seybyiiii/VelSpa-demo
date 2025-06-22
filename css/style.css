@@ -707,13 +707,13 @@ video {
     }
 
     .display-4 {
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     }
 }
 
 @media (max-width: 320px) {
     .display-4 {
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     }
 
     .about-img1 {
