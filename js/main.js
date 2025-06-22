@@ -96,9 +96,9 @@
                         <div class="container-fluid bg-light">
                             <div class="container px-0">
                                 <nav class="navbar navbar-expand-xl navbar-light py-3">
-                                    <div class="container-fluid p-0 align-items-end">
+                                    <div class="container-fluid p-0 align-items-center">
                                         <a href="index.html" class="">
-                                            <h1 class="font-logo display-3 m-0 cafe-noir">VEL SPA</h1>
+                                            <h1 class="font-logo display-4 m-0 cafe-noir">VEL SPA</h1>
                                         </a>
                                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon cafe-noir "></span>
