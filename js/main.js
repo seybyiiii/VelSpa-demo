@@ -20,27 +20,34 @@
         connectedCallBack() {
             this.innerHTML =
                 `
-                    <!-- Google Web Fonts -->
-                    <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+                <!-- Google Web Fonts -->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-                    <!-- Font Awesome CDN -->
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+                <!-- Font Awesome CDN -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+                
+                <!-- Favicon -->
+                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+                <link rel="manifest" href="/site.webmanifest">
+                <link rel="icon" type="image/x-icon" href="img\favicon\favicon-32x32.png">
+                
+                <!-- Libraries Stylesheet -->
+                <link href="lib/animate/animate.min.css" rel="stylesheet">
+                <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+                <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-                    <!-- Libraries Stylesheet -->
-                    <link href="lib/animate/animate.min.css" rel="stylesheet">
-                    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-                    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+                <!-- Customized Bootstrap Stylesheet -->
+                <link href="css/bootstrap.min.css" rel="stylesheet">
 
-                    <!-- Customized Bootstrap Stylesheet -->
-                    <link href="css/bootstrap.min.css" rel="stylesheet">
+                <!-- Template Stylesheet -->
+                <link href="css/style.css" rel="stylesheet">
 
-                    <!-- Template Stylesheet -->
-                    <link href="css/style.css" rel="stylesheet">
-
-                    <!-- AOS -->
-                    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                <!-- AOS -->
+                <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
                 `
             ;
         }
