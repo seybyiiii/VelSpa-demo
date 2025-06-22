@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Vel Spa | Appointment</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- AOS -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Header in main.js -->
+        <my-header></my-header>
+
+
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb py-5">
+            <div class="container text-center py-5">
+                <h3 class="text-white display-3 mb-4 font-logo text-uppercase" data-aos="fade-down" data-aos-delay="700" data-aos-duration="500">Appointment</h1>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="600"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="600"></li>
+                    <li class="active text-white" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="600">Appointment</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        
+        <!-- Appointment Start -->
+        <div class="container-fluid d-flex appointment appointment1 py-5" data-aos="fade-in"  data-aos-duration="700" data-aos-delay="100">
+            <div class="container py-5">
+                <div class="row g-5 align-items-stretch">
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
+                        <div class="appointment-form p-5 d-flex row" >
+                            <div>
+                                <h3 class="fs-4 text-uppercase celadon monteserrat" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">Get In Touch</h3>
+                                <h1 class="display-4 mb-4 font-logo text-uppercase" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">Get Appointment</h1>
+                            </div>
+                            <form action="mailto:myemail@email.com" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+                                <div class="row gy-3 gx-4">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control py-3 bg-transparent" placeholder="Name" required>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="email" class="form-control py-3 bg-transparent " placeholder="Email" required>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <select class="form-select py-3 bg-transparent" style="cursor: pointer;" aria-label="Default select example">
+                                            <option value="1" selected>Branch One</option>
+                                            <option value="2">Branch Two</option>
+                                            <option value="3">Branch Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6" onclick="this.querySelector('input').showPicker()" style="cursor: pointer; user-select: none;">
+                                        <input type="date" class="form-control py-3 bg-transparent" style="pointer-events: none;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea class="form-control bg-transparent" name="text" id="area-text" cols="30" rows="5" placeholder="Remarks" required></textarea>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <button type="submit" class="btn btn-appointment btn-primary-outline-0 w-100 py-3 px-5">SUBMIT NOW</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 opening" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+                        <div class="appointment-time p-5">
+                            <h1 class="display-5 mb-4 monteserrat text-white">Opening Hours</h1>
+                            <div class="d-flex justify-content-between fs-5 text-white">
+                                <p>Saturday:</p>
+                                <p class="mb-1">09:00 am – 10:00 pm</p>
+                            </div>
+                            <div class="d-flex justify-content-between fs-5 text-white">
+                                <p>Sunday:</p>
+                                <p class="mb-1">09:00 am – 10:00 pm</p>
+                            </div>
+                            <div class="d-flex justify-content-between fs-5 text-white">
+                                <p>Monday:</p>
+                                <p>09:00 am – 10:00 pm</p>
+                            </div>
+                            <div class="d-flex justify-content-between fs-5 text-white">
+                                <p>Tuesday:</p>
+                                <p class="mb-1">09:00 am – 10:00 pm</p>
+                            </div>
+                            <div class="d-flex justify-content-between fs-5 text-white">
+                                <p>Wednesday:</p>
+                                <p>09:00 am – 08:00 pm</p>
+                            </div>
+                            <div class="d-flex justify-content-between fs-5 text-white">
+                                <p>Thursday:</p>
+                                <p class="mb-1">09:00 am – 05:00 pm</p>
+                            </div>
+                            <div class="d-flex justify-content-between fs-5 text-white mb-4">
+                                <p>Friday:</p>
+                                <p class="mb-1">09:00 am – 05:00 pm</p>
+                            </div>
+                            <p class="text-white">Check out seasonal discounts for best offers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter Start 
+            <div class="container-fluid counter-section">
+                <div class="container py-5">
+                    <div class="row g-5 justify-content-center">
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="counter-item p-5">
+                                <div class="counter-content bg-white p-4">
+                                    <i class="fas fa-globe fa-5x text-primary mb-3"></i>
+                                    <h5 class="text-primary">Worldwide Clients</h5>
+                                    <div class="svg-img">
+                                        <svg width="100" height="50">
+                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="counter-quantity">
+                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">379</span>
+                                    <span class="h1 fw-bold text-white">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="counter-item p-5">
+                                <div class="counter-content bg-white p-4">
+                                    <i class="fas fa-spa fa-5x text-primary mb-3"></i>
+                                    <h5 class="text-primary">Wellness & Spa</h5>
+                                    <div class="svg-img">
+                                        <svg width="100" height="50">
+                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="counter-quantity">
+                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">829</span>
+                                    <span class="h1 fw-bold text-white">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="counter-item p-5">
+                                <div class="counter-content bg-white p-4">
+                                    <i class="fas fa-users fa-5x text-primary mb-3"></i>
+                                    <h5 class="text-primary">Happy Customers</h5>
+                                    <div class="svg-img">
+                                        <svg width="100" height="50">
+                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="counter-quantity">
+                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">713</span>
+                                    <span class="h1 fw-bold text-white">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             Counter End -->
+        </div>
+        <!-- Appointment End -->
+
+
+
+        <!-- Footer Start -->
+        <my-footer></my-footer>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+                <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: false, // important for retriggering on every scroll or event
+            });
+        </script>
+
+    </body>
+
+</html>
