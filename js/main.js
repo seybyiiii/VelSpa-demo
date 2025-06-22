@@ -99,7 +99,7 @@
                                     <div class="container-fluid p-0 align-items-center">
                                         <div class="col-5 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                                             <a href="index.html" >
-                                                <img src="img\velspa-brown.png" class="img-fluid d-inline-block align-top" alt="vel spa logo">
+                                                <img src="img/velspa-brown.png" class="img-fluid d-inline-block align-top" alt="vel spa logo">
                                             </a>
                                         </div>
                                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
