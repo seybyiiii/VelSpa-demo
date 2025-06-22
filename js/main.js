@@ -95,7 +95,7 @@
                         </div>
                         <div class="container-fluid bg-light">
                             <div class="container px-0">
-                                <nav class="navbar navbar-light navbar-expand-xl align-content-center">
+                                <nav class="navbar navbar-light navbar-expand-xl align-items-center">
                                     <div class="p-0 m-0">
                                         <a href="index.html" class="">
                                             <h1 class="font-logo display-4 cafe-noir">VEL SPA</h1>
