@@ -95,39 +95,45 @@
                         </div>
                         <div class="container-fluid bg-light">
                             <div class="container px-0">
-                                <nav class="navbar navbar-light navbar-expand-xl align-items-center">
+                                <nav class="navbar navbar-expand-xl navbar-light py-3">
+                                    <div class="container-fluid p-0">
                                         <a href="index.html" class="">
                                             <h1 class="font-logo display-4 cafe-noir">VEL SPA</h1>
                                         </a>
-                                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                                        <span class="fa fa-bars cafe-noir"></span>
-                                    </button>
-                                    <div class="collapse navbar-collapse py-3 fw-bold" id="navbarCollapse">
-                                        <div class="navbar-nav mx-auto border-top">
-                                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                                            <a href="about.html" class="nav-item nav-link">About</a>
-                                            <a href="service.html" class="nav-item nav-link">Services</a>
-                                            <a href="franchise.html" class="nav-item nav-link">Franchise</a>
-                                            <div class="nav-item dropdown">
-                                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Branches</a>
-                                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                                    <a href="#" class="dropdown-item">Marikina</a>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="nav-item dropdown">
-                                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
-                                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                                    <a href="team.html" class="dropdown-item">Team</a>
-                                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                                    <a href="gallery.html" class="dropdown-item">Gallery</a>
-                                                    <a href="appointment.html" class="dropdown-item">Appointment</a>
-                                                    <a href="404.html" class="dropdown-item">404 page</a>
-                                                </div>
-                                            </div> -->
-                                            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                                        </div>
-                                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
-                                            <a href="appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Book Appointment</a>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon cafe-noir "></span>
+                                        </button>
+                                    
+                                        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                                            <ul class="navbar-nav ms-auto fw-bold">
+                                                <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="service.html">Services</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="franchise.html">Franchise</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Branches
+                                                </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                        <li><a class="dropdown-item" href="#">Marikina</a></li>
+                                                        <li><a class="dropdown-item" href="#">Branch</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="navbar-nav ms-auto d-lg-inline-flex">
+                                                <a href="appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Book Appointment</a>
+                                            </ul>
                                         </div>
                                     </div>
                                 </nav>
