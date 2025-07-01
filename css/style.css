@@ -186,6 +186,65 @@ body.fade-in {
     box-shadow: 0 0 0 .25rem #91a78840 !important;
 }
 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #aec8a4bf;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #453421;
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cta svg {
+  position: relative;
+  top: -2px;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #453421;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease
+  margin-bottom: 5px;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #aec8a4;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
 
 
 /*** Topbar Start ***/
@@ -869,7 +928,7 @@ video {
 /*** Franchise ***/
 .section-services {
 	font-family: "Poppins", sans-serif;
-	background-color: #f9f8f6;
+	background-color: #fff;
 	color: #202020;
 	padding-top: 115px;
     padding-bottom: 120px;
@@ -917,7 +976,7 @@ video {
 .section-services .single-service {
     position: relative;
     margin-top: 30px;
-    background-color: #fff;
+    background-color: #f9f8f6;
     border-radius: 10px;
     padding: 40px 30px;
     overflow: hidden;
@@ -1120,27 +1179,26 @@ video {
 /*** Events End ***/
 
 
-/*** Pricing Start ***/
-.pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/appointment-background.jpg);
+/*** location Start ***/
+.location {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.pricing .pricing-item {
+.location .location-item {
     color: var(--bs-white);
 }
 
-.pricing .pricing-item .pricing-content {
+.location .location-item .location-content {
     background: rgba(255, 255, 255, 0.4);
 }
 
-.pricing .owl-carousel.pricing-carousel {
+.location .owl-carousel.location-carousel {
     position: relative;
 }
 
-.pricing .owl-carousel.pricing-carousel .owl-nav {
+.location .owl-carousel.location-carousel .owl-nav {
     position: absolute;
     top: -60px;
     right: 0;
@@ -1150,20 +1208,20 @@ video {
 
 }
 
-.pricing .owl-carousel.pricing-carousel .owl-nav .owl-prev {
+.location .owl-carousel.location-carousel .owl-nav .owl-prev {
     margin-right: 40px;
 }
 
-.pricing .owl-carousel.pricing-carousel .owl-nav .owl-prev,
-.pricing .owl-carousel.pricing-carousel .owl-nav .owl-next {
+.location .owl-carousel.location-carousel .owl-nav .owl-prev,
+.location .owl-carousel.location-carousel .owl-nav .owl-next {
     transition: 0.5s;
 }
 
-.pricing .owl-carousel.pricing-carousel .owl-nav .owl-prev:hover,
-.pricing .owl-carousel.pricing-carousel .owl-nav .owl-next:hover {
+.location .owl-carousel.location-carousel .owl-nav .owl-prev:hover,
+.location .owl-carousel.location-carousel .owl-nav .owl-next:hover {
     color: var(--bs-primary);
 }
-/*** Pricing End ***/
+/*** location End ***/
 
 /*** Team Start ***/
 .team .team-item {
