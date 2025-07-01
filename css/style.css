@@ -229,7 +229,7 @@ body.fade-in {
   stroke: #453421;
   stroke-width: 2;
   transform: translateX(-5px);
-  transition: all 0.3s ease
+  transition: all 0.3s ease;
   margin-bottom: 5px;
 }
 
@@ -926,6 +926,12 @@ video {
 /*** Appointment End ***/
 
 /*** Franchise ***/
+
+.vs-adv {
+    align-items: stretch;
+    display: flex;
+}
+
 .section-services {
 	font-family: "Poppins", sans-serif;
 	background-color: #fff;
@@ -980,6 +986,18 @@ video {
     border-radius: 10px;
     padding: 40px 30px;
     overflow: hidden;
+    width:100%;
+}
+
+.section-services .single-service img{
+    position: absolute;
+    z-index: 20;
+    width: 150px;
+    height: 150px;
+    transform-origin: left;
+    transform: translate(45%, 20%);
+    bottom: 0;
+    right: 0;
 }
 
 .section-services .single-service .content {
@@ -1049,6 +1067,7 @@ video {
     margin-bottom: 20px;
     font-size: 14px;
     transition: color .3s;
+    width: 93%;
 }
 
 .section-services .single-service:hover .description {
