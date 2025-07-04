@@ -739,7 +739,7 @@ body.fade-in {
   border-radius: 10px !important;
   transition: 0.5s;
   opacity: 1;
-  box-shadow: 0 8px 8px -4px #453421;
+  box-shadow: 0 5px 14px -5px #453421;
 }
 
 @media (min-width: 1200px) {
