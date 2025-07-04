@@ -742,10 +742,19 @@ body.fade-in {
   box-shadow: 0 5px 14px -5px #453421;
 }
 
-@media (min-width: 1200px) {
-  .navbar .navbar-collapse .border-top {
-    border-top: none !important;
-  }
+@media (max-width: 1200px) {
+	.navbar-collapse .border-topmob  {
+			margin-top: 20px;
+			border-top: 2px solid #aec8a4;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu {
+			background: var(--bs-light) !important;
+			box-shadow: none;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
 }
 
 #searchModal .modal-content {
