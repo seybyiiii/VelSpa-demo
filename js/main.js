@@ -109,7 +109,7 @@
                                         <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                                             <ul class="navbar-nav ms-auto fw-bold border-topmob">
                                                 <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                                 </li>
                                                 <li class="nav-item">
                                                 <a class="nav-link" href="about.html">About</a>
@@ -134,7 +134,7 @@
                                                 </li>
                                             </ul>
                                             <ul class="navbar-nav ms-auto d-lg-inline-flex">
-                                                <a href="appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Book Appointment</a>
+                                                <a href="appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 mx-4">Book Appointment</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -338,6 +338,56 @@ $('.back-to-top').click(function () {
                 $('.navbar-nav .nav-link').removeClass('active'); // remove from all
                 $(this).addClass('active'); // add to current
             }
+        });
+    });
+
+    // Opening Hours
+    const openingHours = {
+        1: {
+            Location: "Parang Marikina",
+            Weekdays: "1:00 am – 11:00 pm",
+            Saturday: "1:00 am – 11:00 pm",
+            Sunday: "1:00 am – 11:00 pm",
+        },
+        2: {
+            Location: "Marcos Highway",
+            Weekdays: "1:00 am – 11:00 pm",
+            Saturday: "1:00 am – 11:00 pm",
+            Sunday: "1:00 am – 11:00 pm",
+        },
+        3: {
+            Location: "Sta Lucia",
+            Weekdays: "10:00 am – 12:00 mn",
+            Saturday: "10:00 am – 12:00 mn",
+            Sunday: "10:00 am – 12:00 mn",
+        },
+        4: {
+            Location: "Maybunga Pasig",
+            Weekdays: "2:00 pm – 2:00 am",
+            Saturday: "2:00 pm – 2:00 am",
+            Sunday: "2:00 pm – 2:00 am",
+        },
+        5: {
+            Location: "Cainta Junction",
+            Weekdays: "2:00 pm – 2:00 am",
+            Saturday: "2:00 pm – 2:00 am",
+            Sunday: "2:00 pm – 2:00 am",
+        },
+        6: {
+            Location: "Maia Alta",
+            Weekdays: "2:00 pm – 2:00 am",
+            Saturday: "2:00 pm – 2:00 am",
+            Sunday: "2:00 pm – 2:00 am",
+        }
+    };
+
+    document.getElementById("branchSelect").addEventListener("change", function () {
+        const branch = this.value;
+        const hourElements = document.querySelectorAll(".open-hour");
+
+        hourElements.forEach(el => {
+            const day = el.getAttribute("data-day");
+            el.textContent = openingHours[branch][day];
         });
     });
 

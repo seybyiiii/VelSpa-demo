@@ -78,10 +78,13 @@
                                         <input type="email" class="form-control py-3 bg-transparent " placeholder="Email" required>
                                     </div>
                                     <div class="col-lg-6">
-                                        <select class="form-select py-3 bg-transparent" style="cursor: pointer;" aria-label="Default select example">
-                                            <option value="1" selected>Branch One</option>
-                                            <option value="2">Branch Two</option>
-                                            <option value="3">Branch Three</option>
+                                        <select id="branchSelect" class="form-select py-3 bg-transparent" style="cursor: pointer;" aria-label="Default select example">
+                                            <option value="1" selected>Parang Marikina</option>
+                                            <option value="2">Marcos Highway</option>
+                                            <option value="3">Sta Lucia</option>
+                                            <option value="4">Maybunga Pasig</option>
+                                            <option value="5">Cainta Junction</option>
+                                            <option value="6">Maia Alta</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-6" onclick="this.querySelector('input').showPicker()" style="cursor: pointer; user-select: none;">
@@ -100,99 +103,33 @@
 
                     <div class="col-lg-5 opening" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
                         <div class="appointment-time p-5">
-                            <h1 class="display-5 mb-4 monteserrat text-white">Opening Hours</h1>
-                            <div class="d-flex justify-content-between fs-5 text-white">
-                                <p>Saturday:</p>
-                                <p class="mb-1">09:00 am – 10:00 pm</p>
+                            <div>
+                                <h3 class="monteserrat text-white text-uppercase" >Opening Hours</h3>
+                                <h1 class="display-6 mb-4 monteserrat text-white font-logo text-uppercase open-hour" data-day="Location">Parang Marikina</h1>
                             </div>
-                            <div class="d-flex justify-content-between fs-5 text-white">
-                                <p>Sunday:</p>
-                                <p class="mb-1">09:00 am – 10:00 pm</p>
-                            </div>
-                            <div class="d-flex justify-content-between fs-5 text-white">
-                                <p>Monday:</p>
-                                <p>09:00 am – 10:00 pm</p>
-                            </div>
-                            <div class="d-flex justify-content-between fs-5 text-white">
-                                <p>Tuesday:</p>
-                                <p class="mb-1">09:00 am – 10:00 pm</p>
-                            </div>
-                            <div class="d-flex justify-content-between fs-5 text-white">
-                                <p>Wednesday:</p>
-                                <p>09:00 am – 08:00 pm</p>
-                            </div>
-                            <div class="d-flex justify-content-between fs-5 text-white">
-                                <p>Thursday:</p>
-                                <p class="mb-1">09:00 am – 05:00 pm</p>
-                            </div>
-                            <div class="d-flex justify-content-between fs-5 text-white mb-4">
-                                <p>Friday:</p>
-                                <p class="mb-1">09:00 am – 05:00 pm</p>
-                            </div>
-                            <p class="text-white">Check out seasonal discounts for best offers.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Counter Start 
-            <div class="container-fluid counter-section">
-                <div class="container py-5">
-                    <div class="row g-5 justify-content-center">
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="counter-item p-5">
-                                <div class="counter-content bg-white p-4">
-                                    <i class="fas fa-globe fa-5x text-primary mb-3"></i>
-                                    <h5 class="text-primary">Worldwide Clients</h5>
-                                    <div class="svg-img">
-                                        <svg width="100" height="50">
-                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
-                                        </svg>
-                                    </div>
+                            <div>
+                                <div class="fs-4 text-white">
+                                    <p class=" mb-1">Monday to Friday :</p>
+                                    <p class="mb-3 text-uppercase open-hour" data-day="Weekdays">1:00 am – 11:00 pm</p>
                                 </div>
-                                <div class="counter-quantity">
-                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">379</span>
-                                    <span class="h1 fw-bold text-white">+</span>
+                                <div class="fs-4 text-white">
+                                    <p class=" mb-1">Saturday :</p>
+                                    <p class="mb-3 text-uppercase open-hour " data-day="Saturday">1:00 am – 11:00 pm</p>
+                                </div>
+                                <div class="fs-4 text-white">
+                                    <p class=" mb-1">Sunday :</p>
+                                    <p class="mb-3 text-uppercase open-hour " data-day="Sunday">1:00 am – 11:00 pm</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="counter-item p-5">
-                                <div class="counter-content bg-white p-4">
-                                    <i class="fas fa-spa fa-5x text-primary mb-3"></i>
-                                    <h5 class="text-primary">Wellness & Spa</h5>
-                                    <div class="svg-img">
-                                        <svg width="100" height="50">
-                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="counter-quantity">
-                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">829</span>
-                                    <span class="h1 fw-bold text-white">+</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="counter-item p-5">
-                                <div class="counter-content bg-white p-4">
-                                    <i class="fas fa-users fa-5x text-primary mb-3"></i>
-                                    <h5 class="text-primary">Happy Customers</h5>
-                                    <div class="svg-img">
-                                        <svg width="100" height="50">
-                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="counter-quantity">
-                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">713</span>
-                                    <span class="h1 fw-bold text-white">+</span>
-                                </div>
+                            <div class="fs-14">
+                                <p class="mb-0 text-white">Check out seasonal discounts for best offers.</p>
+                                <p class="mb-0 text-white">Some seasonal discounts are exclusive for this branch only.</p>
+                                <p class="mb-0 text-white">Some offers are cannot be combined with any other offer or discount.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-             Counter End -->
         </div>
         <!-- Appointment End -->
 
