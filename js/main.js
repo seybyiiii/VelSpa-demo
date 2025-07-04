@@ -75,19 +75,19 @@
                                     <div class="col-lg-8">
                                         <div class="details d-flex flex-wrap">
                                             <div class="">
-                                                <a href="#" class="me-4 text-light">
+                                                <a href="contact-html" class="me-4 text-light">
                                                     <i class="fas fa-map-marker-alt cream me-2"></i>Marikina
                                                 </a>
                                             </div>
-                                            <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt cream  me-2"></i>+639 346 7890</a>
-                                            <a href="#" class="text-light"><i class="fas fa-envelope cream  me-2"></i>velspatph@gmail.com</a>
+                                            <a href="contact.html" class="me-4 text-light"><i class="fas fa-phone-alt cream  me-2"></i>+639 346 7890</a>
+                                            <a href="contact.html" class="text-light"><i class="fas fa-envelope cream  me-2"></i>velspatph@gmail.com</a>
                                         </div>
 
                                     </div>
                                     <div class="socmed col-lg-4">
                                         <div class="d-flex align-items-center justify-content-end">
-                                            <a href="#" class="me-3 btn-square border rounded-circle cream "><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#" class="me-3 btn-square border rounded-circle cream "><i class="fab fa-instagram"></i></a>
+                                            <a href="https://www.facebook.com/velspa01/" target="_blank" class="me-3 btn-square border rounded-circle cream "><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.instagram.com/velspatraditionalpinoyhilot" target="_blank" class="me-3 btn-square border rounded-circle cream "><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                 </div>

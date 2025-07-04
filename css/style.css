@@ -707,12 +707,11 @@ body.fade-in {
   color: #aec8a4;
 }
 
-.navbar .dropdown-toggle::after {
+.navbar .dropdown-toggle {
   border: none;
   content: "\f107";
   font-weight: 700;
   vertical-align: middle;
-  margin-left: 8px;
 }
 
 @media (min-width: 1200px) {
@@ -740,6 +739,7 @@ body.fade-in {
   border-radius: 10px !important;
   transition: 0.5s;
   opacity: 1;
+  box-shadow: 0 8px 8px -4px #453421;
 }
 
 @media (min-width: 1200px) {
@@ -1628,6 +1628,12 @@ video {
 }
 
 @media (max-width:1400px) and (min-width:1200px) {
+	.h-125 {
+		height: 180px;
+	}
+}
+
+@media (max-width:360px)  {
 	.h-125 {
 		height: 180px;
 	}
