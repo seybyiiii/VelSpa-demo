@@ -1410,8 +1410,70 @@ video {
 	font-family: "Poppins", sans-serif;
 	background-color: #a87f59;
 	padding-top: 115px;
-    padding-bottom: 120px;
+  padding-bottom: 120px;
 	overflow-y: hidden;
+}
+
+.inc-form {
+  box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.199);
+  padding: 3rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.package {
+  color: #453421;
+  text-transform: uppercase;
+}
+
+.inc-word {
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+
+@media (max-width: 992px) and (min-width: 576px){
+  .inc-form {
+    padding: 2rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+  }
+
+  .package {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 321px){
+  .inc-form {
+    padding: 1.5rem 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+  }
+
+  .display-6 {
+    font-size: calc(1.425rem + 0.9vw);
+  }
+
+  .package {
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .inc-form {
+    padding: 1.5rem 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+  }
+
+  .display-6 {
+    font-size: calc(1.425rem + 0.9vw);
+  }
+
+  .package {
+    text-align: center;
+  }
 }
 
 .vs-adv {
