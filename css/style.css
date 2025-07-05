@@ -1650,6 +1650,9 @@ video {
 
 .form-button {
 	color: #e7efc7;
+  font-size: 16px;
+  bottom: 3px;
+  position: relative;
 }
 
 .form-button:hover {
