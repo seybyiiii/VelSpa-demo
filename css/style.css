@@ -869,6 +869,7 @@ video {
 }
 
 /*** Services Start ***/
+
 .services .services-item {
   transition: 0.5s;
 }
@@ -1659,7 +1660,37 @@ video {
 	}
 }
 
-@media (max-width:360px)  {
+@media (max-width:768px) and (min-width:576px) {
+	.h-125 {
+		height: 180px;
+	}
+}
+
+@media (max-width:345px) and (min-width:341px) {
+	.h-125 {
+		height: 135px;
+	}
+}
+
+@media (max-width:341px) and (min-width:336px) {
+	.h-125 {
+		height: 165px;
+	}
+}
+
+@media (max-width:336px) and (min-width:331px) {
+	.h-125 {
+		height: 160px;
+	}
+}
+
+@media (max-width:331px) and (min-width:327px) {
+	.h-125 {
+		height: 165px;
+	}
+}
+
+@media (max-width:327px)  {
 	.h-125 {
 		height: 180px;
 	}
@@ -1670,6 +1701,7 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
+  padding-bottom: 120px !important;
 }
 
 .location .location-item {
