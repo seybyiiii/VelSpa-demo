@@ -201,8 +201,8 @@
                                 <div class="col-md-5 col-lg-5 col-xl-2">
                                     <div class="footer-item d-flex flex-column">
                                         <h4 class="mb-4 text-white monteserrat">Follow Us</h4>
-                                        <a href="https://www.facebook.com/velspa01"><i class="fas fa-angle-right me-2"></i> Facebook</a>
-                                        <a href="https://www.instagram.com/velspatraditionalpinoyhilot"><i class="fas fa-angle-right me-2"></i> Instagram</a>
+                                        <a href="https://www.facebook.com/velspa01" target="_blank"><i class="fas fa-angle-right me-2"></i> Facebook</a>
+                                        <a href="https://www.instagram.com/velspatraditionalpinoyhilot" target="_blank"><i class="fas fa-angle-right me-2"></i> Instagram</a>
                                     </div>
                                 </div>
                             </div>
