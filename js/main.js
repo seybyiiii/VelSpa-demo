@@ -76,11 +76,11 @@
                                         <div class="details d-flex flex-wrap">
                                             <div class="">
                                                 <a href="contact-html" class="me-4 text-light">
-                                                    <i class="fas fa-map-marker-alt cream me-2"></i>Marikina
+                                                    <i class="fas fa-map-marker-alt cream me-2"></i>Parang, Marikina City
                                                 </a>
                                             </div>
-                                            <a href="contact.html" class="me-4 text-light"><i class="fas fa-phone-alt cream  me-2"></i>+639 346 7890</a>
-                                            <a href="contact.html" class="text-light"><i class="fas fa-envelope cream  me-2"></i>velspatph@gmail.com</a>
+                                            <a href="contact.html" class="me-4 text-light"><i class="fas fa-phone-alt cream  me-2"></i>(02) 8637-5847</a>
+                                            <a href="contact.html" class="text-light"><i class="fas fa-envelope cream  me-2"></i>Velspatraditionalpinoyhilot@gmail.com</a>
                                         </div>
 
                                     </div>
