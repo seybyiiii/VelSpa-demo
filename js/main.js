@@ -189,13 +189,31 @@
                                 <div class="col-md-6 col-lg-6 col-xl-3">
                                     <div class="footer-item d-flex flex-column">
                                         <h4 class="mb-4 text-white monteserrat">Main Address</h4>
-                                        <p class="mb-0">
-                                            <i class="fas fa-map-marker-alt footer-map-pin me-2"></i> 
-                                            Parang, Marikina
-                                        </p>
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="footer-icon fas fa-map-marker-alt footer-map-pin me-2"></i> 
+                                            </div>
+                                            <div class="col-7 col-md-6 col-lg-10">
+                                                <p class="mb-0">Parang, Marikina</p>
+                                            </div>
+                                        </div> 
                                         <h4 class="my-4 text-white monteserrat">Contact Us</h4>
-                                        <p class="mb-0"><i class="fas fa-envelope footer-env me-2 "></i> info@example.com</p>
-                                        <p class="mb-0"><i class="fas fa-phone me-2 "></i> (+012) 3456 7890 123</p>
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="email-icon fas fa-envelope footer-env me-2"></i>
+                                            </div>
+                                            <div class="col-7 col-md-6 col-lg-10">
+                                                <p class="mb-0 text-break lh-base">Velspatraditionalpinoyhilot@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="footer-icon fas fa-phone me-2"></i>
+                                            </div>
+                                            <div class="col-7 col-md-6 col-lg-10">
+                                                <p class="mb-0">(02) 8637-5847</p>
+                                            </div>
+                                        </div> 
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-lg-5 col-xl-2">
