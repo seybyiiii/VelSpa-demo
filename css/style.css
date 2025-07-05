@@ -1541,7 +1541,7 @@ video {
   }
 
   .inclusion-desc {
-    padding: 0rem 2.5rem;
+    padding: 0rem 2.5rem 2rem;
   }
 
   .inc-form .hanging-leaf1, .inc-form .hanging-leaf2, 
@@ -1561,6 +1561,10 @@ video {
     padding: 1.5rem 1rem;
     margin-right: .5rem;
     margin-left: .5rem;
+  }
+
+  .inclusion-desc {
+    padding: 0rem 2.5rem 2rem;
   }
 
   .display-6 {
