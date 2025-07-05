@@ -1384,8 +1384,8 @@ video {
 }
 
 .Wpribbon {
-    position: relative;
-	zoom: 110%;
+  position: relative;
+	transform: scale(1.1);
 	padding-top: .5rem;
 }
 .Wpribbon [class*=Wpribbon-] {
