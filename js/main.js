@@ -72,7 +72,7 @@
                         <div class="container-fluid topbar d-none d-lg-block">
                             <div class="container px-0">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-8">
+                                    <div class="col-lg-10">
                                         <div class="details d-flex flex-wrap">
                                             <div class="">
                                                 <a href="contact-html" class="me-4 text-light">
@@ -84,7 +84,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="socmed col-lg-4">
+                                    <div class="socmed col-lg-2">
                                         <div class="d-flex align-items-center justify-content-end">
                                             <a href="https://www.facebook.com/velspa01/" target="_blank" class="me-3 btn-square border rounded-circle cream "><i class="fab fa-facebook-f"></i></a>
                                             <a href="https://www.instagram.com/velspatraditionalpinoyhilot" target="_blank" class="me-3 btn-square border rounded-circle cream "><i class="fab fa-instagram"></i></a>
