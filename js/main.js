@@ -390,7 +390,7 @@ $('.back-to-top').click(function () {
             Sunday: "2:00 pm – 2:00 am",
         },
         6: {
-            Location: "Maia Alta Antiplo",
+            Location: "Maia Alta Antipolo",
             Weekdays: "2:00 pm – 2:00 am",
             Saturday: "2:00 pm – 2:00 am",
             Sunday: "2:00 pm – 2:00 am",
