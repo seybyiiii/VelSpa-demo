@@ -1997,6 +1997,7 @@ video {
   line-height: 1.6;
   color: white;
   word-break: break;
+  text-decoration: none;
 }
 
 .contact-box .email-contact {
