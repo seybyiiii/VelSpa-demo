@@ -155,7 +155,7 @@
                 `
                     <div class="container-fluid footer py-5">
                         <div class="container py-5">
-                            <div class="row g-5 align-content-stretch">
+                            <div class="row g-5 align-content-stretch align-items-baseline">
                                 <div class="col-md-12 col-lg-12 col-xl-4">
                                     <div class="footer-item">
                                         <div class="col-md-10 col-lg-10 col-xl-7 mb-4">
@@ -175,25 +175,23 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-3">
-                                    <div class="footer-item d-flex flex-column">
-                                        <h4 class="mb-4 text-white monteserrat">Our Services</h4>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Pinoy Hilot</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Hot Stone</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Pinoy Ventosa</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Suob + Body Scrub</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Foot Dagdagay</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Chiropractic</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Foot Soak</a>
+                                    <div class="footer-item d-flex flex-column ps-4">
+                                        <h4 class="mb-4 text-white monteserrat">Our Locations</h4>
+                                        <a href=""><i class="fas fa-angle-right me-2"></i> Parang Marikina</a>
+                                        <a href=""><i class="fas fa-angle-right me-2"></i> Marcos Highway</a>
+                                        <a href=""><i class="fas fa-angle-right me-2"></i> Maybunga Pasig</a>
+                                        <a href=""><i class="fas fa-angle-right me-2"></i> Cainta Junction</a>
+                                        <a href=""><i class="fas fa-angle-right me-2"></i> Maia Alta Antipolo</a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-3">
-                                    <div class="footer-item d-flex flex-column">
+                                    <div class="footer-item d-flex flex-column ps-4">
                                         <h4 class="mb-4 text-white monteserrat">Main Address</h4>
                                         <div class="row">
                                             <div class="col-1">
                                                 <i class="footer-icon fas fa-map-marker-alt footer-map-pin me-2"></i> 
                                             </div>
-                                            <div class="col-7 col-md-6 col-lg-10">
+                                            <div class="col-10 col-md-10 col-lg-10">
                                                 <p class="mb-0">Parang, Marikina</p>
                                             </div>
                                         </div> 
@@ -202,7 +200,7 @@
                                             <div class="col-1">
                                                 <i class="email-icon fas fa-envelope footer-env me-2"></i>
                                             </div>
-                                            <div class="col-7 col-md-6 col-lg-10">
+                                            <div class="col-10 col-md-10 col-lg-10">
                                                 <p class="mb-0 text-break lh-base">Velspatraditionalpinoyhilot@gmail.com</p>
                                             </div>
                                         </div>
@@ -210,14 +208,14 @@
                                             <div class="col-1">
                                                 <i class="footer-icon fas fa-phone me-2"></i>
                                             </div>
-                                            <div class="col-7 col-md-6 col-lg-10">
+                                            <div class="col-10 col-md-10 col-lg-10">
                                                 <p class="mb-0">(02) 8637-5847</p>
                                             </div>
                                         </div> 
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-lg-5 col-xl-2">
-                                    <div class="footer-item d-flex flex-column">
+                                    <div class="footer-item d-flex flex-column ps-4">
                                         <h4 class="mb-4 text-white monteserrat">Follow Us</h4>
                                         <a href="https://www.facebook.com/velspa01" target="_blank"><i class="fas fa-angle-right me-2"></i> Facebook</a>
                                         <a href="https://www.instagram.com/velspatraditionalpinoyhilot" target="_blank"><i class="fas fa-angle-right me-2"></i> Instagram</a>
@@ -230,7 +228,7 @@
                     <div class="container-fluid copyright py-4">
                         <div class="container">
                             <div class="row g-4 align-items-center justify-content-between">
-                                <div class="col-md-4 text-center text-md-start mb-md-0">
+                                <div class="col-md-6 text-center text-md-start mb-md-0">
                                     <span class="text-light"><i class="fas fa-copyright text-light me-2"></i>2025 <a href="#" class="cc-highlight">Vel Spa</a>. All right reserved.</span>
                                 </div>
                                 <div class="col-md-4 text-center text-md-end text-white">
