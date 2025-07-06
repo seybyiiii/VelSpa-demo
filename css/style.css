@@ -1939,7 +1939,7 @@ video {
     padding: 3rem 1rem;
   }
   .contact-form label {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .contact-details {
@@ -1960,6 +1960,9 @@ video {
 @media (max-width:320px) {
   .contact-form {
     padding: 2.5rem 1rem;
+  }
+  .contact-form label {
+    font-size: 13px;
   }
   .contact-details {
       position: relative;
