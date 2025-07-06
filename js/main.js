@@ -372,7 +372,7 @@ $('.back-to-top').click(function () {
             Sunday: "1:00 am – 11:00 pm",
         },
         3: {
-            Location: "Sta Lucia",
+            Location: "Sta Lucia iL-centro",
             Weekdays: "10:00 am – 12:00 mn",
             Saturday: "10:00 am – 12:00 mn",
             Sunday: "10:00 am – 12:00 mn",
@@ -390,7 +390,7 @@ $('.back-to-top').click(function () {
             Sunday: "2:00 pm – 2:00 am",
         },
         6: {
-            Location: "Maia Alta",
+            Location: "Maia Alta Antiplo",
             Weekdays: "2:00 pm – 2:00 am",
             Saturday: "2:00 pm – 2:00 am",
             Sunday: "2:00 pm – 2:00 am",
