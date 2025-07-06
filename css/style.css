@@ -908,7 +908,7 @@ video {
 .form-control {
   border: 1px solid #a87f59;
   user-select: none;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .form-select {
