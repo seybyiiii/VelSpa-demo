@@ -46,7 +46,7 @@
         <my-header></my-header>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid bg-breadcrumb py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4 font-logo text-uppercase" data-aos="fade-down" data-aos-delay="700" data-aos-duration="500">Contact Us</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -55,42 +55,86 @@
                     <li class="active text-white" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="600">Contact Us</li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
-        
-        <!-- Contact Start
-        <div class="container-fluid contact py-5" style="background: var(--bs-primary);">
-            <div class="container pt-5">
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="text-center">
-                            <h1 class="display-3 text-white mb-4">Contact Us</h1>
-                            <p class="text-white fs-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-secondary" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+        <section class="contact-page">
+            <div class="container my-5">
+                
+                <div class="row g-4 justify-content-end">
+                    <!-- Contact Info Grid -->
+                    <div class="col-md-12 col-xl-5 m-0">
+                        <div class="col-xl-12">
+                            <div class="row contact-details">
+                                <div class="contact-grid">
+                                    <div class="contact-box col-lg-12 " data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                                        <i class="fas fa-map-marker-alt icon"></i>
+                                        <h4 class="font-logo">OUR MAIN OFFICE</h4>
+                                        <p>Blk 2 Lot 3, Chateau De Regina, Gen. B.G Molina Street</p>
+                                    </div>
+                                    <div class="contact-box col-lg-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                                        <i class="fas fa-phone icon"></i>
+                                        <h4 class="font-logo">PHONE NUMBER</h4>
+                                        <p>(02) 8637-5847<br>888-0123-4567 (Toll Free)</p>
+                                    </div>
+                                    <div class="contact-box col-lg-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                                        <i class="fas fa-envelope icon"></i>
+                                        <h4 class="font-logo">EMAIL</h4>
+                                        <p class="email-contact">Velspatraditionalpinoyhilot@gmail.com</p>
+                                    </div>
+                                    <div class="contact-box col-lg-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                                        <div class="col-4 col-sm-4 col-lg-3">
+                                            <a href="https://www.facebook.com/velspa01/" target="_blank">
+                                                <i class="fas fa-brands fa-square-facebook icon"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-4 col-sm-4 col-lg-3">
+                                            <a href="https://www.instagram.com/velspatraditionalpinoyhilot" target="_blank">
+                                                <i class="fa-brands fa-instagram icon"></i>
+                                            </a>
+                                        </div>
+                                        <h4 class="font-logo">FOLLOW US</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="contact-form rounded p-5">
-                            <form>
-                                <h1 class="display-6 mb-4">Do You have Any Questions?</h1>
-                                <div class="row gx-4 gy-3">
-                                    <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your First Name">
+                    <!-- Contact Form -->
+                    <div class="col-xl-7 col-lg-12 col-md-12 px-5 m-0" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <div class="contact-form d-flex row" >
+                            <div class="p-0">
+                                <h3 class="fs-4 text-uppercase celadon monteserrat text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">Contact Us</h3>
+                                <h1 class="display-4 mb-4 font-logo text-uppercase text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">Get In Touch</h1>
+                            </div>
+                            <form action="mailto:myemail@email.com" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+                                <div class="row gy-3 gx-4">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control py-3 bg-transparent" placeholder="Name" required>
                                     </div>
-                                    <div class="col-xl-6">
-                                        <input type="email" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Email">
+                                    <div class="col-lg-6">
+                                        <input type="email" class="form-control py-3 bg-transparent " placeholder="Email" required>
                                     </div>
-                                    <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Phone">
+                                    <div class="col-lg-6">
+                                        <input type="number" class="form-control py-3 bg-transparent " placeholder="Phone number" required>
                                     </div>
-                                    <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Subject">
+                                    <div class="col-lg-6">
+                                        <input type="email" class="form-control py-3 bg-transparent " placeholder="Company (if applicable)">
                                     </div>
-                                    <div class="col-12">
-                                        <textarea class="form-control bg-white border-0 py-3 px-4" rows="4" cols="10" placeholder="Your Message"></textarea>
+                                    <div class="col-lg-12">
+                                        <label for="branchSelect" class="form-label text-dark mb-2">How did you hear about us?</label>
+                                        <select id="branchSelect" class="form-select py-3 bg-transparent" style="cursor: pointer;" aria-label="Default select example">
+                                            <option value="1" selected>Social Media</option>
+                                            <option value="2">Search Engine</option>
+                                            <option value="3">Word of Mouth</option>
+                                            <option value="4">Advetisement</option>
+                                            <option value="5">Other</option>
+                                        </select>
                                     </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5" type="submit">Submit</button>
+                                    <div class="col-lg-12">
+                                        <textarea class="form-control bg-transparent" name="text" id="area-text" cols="30" rows="5" placeholder="Remarks" required></textarea>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <button type="submit" class="btn btn-contact btn-primary-outline-0 w-100">SUBMIT NOW</button>
                                     </div>
                                 </div>
                             </form>
@@ -98,61 +142,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid pb-5">
-            <div class="container py-5">
-                <div class="row g-4 align-items-center">
-                    <div class="col-12">
-                        <div class="row g-4">
-                            <div class="col-lg-4">
-                                <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
-                                    <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
-                                    <div>
-                                        <h4>Address</h4>
-                                        <p class="mb-0">123 North tower New York, USA</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
-                                    <i class="fas fa-envelope fa-2x text-primary me-4"></i>
-                                    <div>
-                                        <h4>Mail Us</h4>
-                                        <p class="mb-0">info@example.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
-                                    <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
-                                    <div>
-                                        <h4>Telephone</h4>
-                                        <p class="mb-0">(+012) 3456 7890 123</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="rounded">
-                            <iframe class="rounded-top w-100" 
-                            style="height: 450px; margin-bottom: -6px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div class=" text-center p-4 rounded-bottom bg-primary">
-                            <h4 class="text-white fw-bold">Follow Us</h4>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a href="#" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn btn-light btn-light-outline-0 btn-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
-                            </div>   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        Contact End -->
+        </section>
+        
 
         <!-- Footer Start -->
         <my-footer></my-footer>

@@ -189,14 +189,14 @@
                                         <h4 class="mb-4 text-white monteserrat">Main Address</h4>
                                         <div class="row">
                                             <div class="col-1">
-                                                <i class="footer-icon fas fa-map-marker-alt footer-map-pin me-2"></i> 
+                                                <i class="pin-icon fas fa-map-marker-alt footer-map-pin me-2"></i> 
                                             </div>
                                             <div class="col-10 col-md-10 col-lg-10">
-                                                <p class="mb-0">Parang, Marikina</p>
+                                                <p class="mb-0 lh-base">Blk 2 Lot 3, Chateau De Regina, Gen. B.G Molina Street, Parang, Marikina City</p>
                                             </div>
                                         </div> 
                                         <h4 class="my-4 text-white monteserrat">Contact Us</h4>
-                                        <div class="row">
+                                        <div class="row mb-2">
                                             <div class="col-1">
                                                 <i class="email-icon fas fa-envelope footer-env me-2"></i>
                                             </div>
