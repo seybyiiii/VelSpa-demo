@@ -109,19 +109,19 @@
                                         <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                                             <ul class="navbar-nav ms-auto fw-bold border-topmob">
                                                 <li class="nav-item">
-                                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="../about.html">About</a>
+                                                <a class="nav-link" href="about.html">About</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="../service.html">Services</a>
+                                                <a class="nav-link" href="service.html">Services</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="../franchise.html">Franchise</a>
+                                                <a class="nav-link" href="franchise.html">Franchise</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="../contact.html">Contact Us</a>
+                                                <a class="nav-link" href="contact.html">Contact Us</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
