@@ -234,10 +234,10 @@ $('.back-to-top').click(function () {
 });
 
 // Appointment
-    const today = new Date().toISOString().split('T')[0];
-
-    // Set the value of the date input
-    document.getElementById('appointmentDate').value = today;
+    document.addEventListener("DOMContentLoaded", function () {
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById("appointmentDate").value = today;
+    });
 
 
     // Location-carousel
