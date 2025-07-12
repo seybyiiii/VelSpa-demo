@@ -128,7 +128,7 @@
                                                     Locations
                                                 </a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="../location/parang-marikina.html">Parang Marikina</a></li>
+                                                        <li><a class="dropdown-item" href="location/parang-marikina.html">Parang Marikina</a></li>
                                                         <li><a class="dropdown-item" href="#">Branch</a></li>
                                                     </ul>
                                                 </li>
