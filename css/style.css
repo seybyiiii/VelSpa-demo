@@ -2505,6 +2505,7 @@ video {
 
   .location-color, .location-details {
     padding-left: 0rem;
+    margin-right: 0px;
   }
 
   .location-button {
