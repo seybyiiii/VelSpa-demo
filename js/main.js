@@ -58,7 +58,7 @@
                                 <nav class="navbar navbar-expand-xl navbar-light py-3">
                                     <div class="container-fluid p-0 align-items-center">
                                         <div class="col-5 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                                            <a href="index.html" >
+                                            <a href="/VelSpa-demo/index.html" >
                                                 <img src="/VelSpa-demo/img/velspa-brown.png" class="img-fluid d-inline-block align-top" alt="vel spa logo">
                                             </a>
                                         </div>
