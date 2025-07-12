@@ -1136,8 +1136,9 @@ video {
 input[type="text"],
 input[type="email"],
 input[type="date"],
-label {
+select {
   color: #453421 !important;
+  text-align: left 
 }
 .form-control:focus,
 .form-select:focus {
