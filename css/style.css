@@ -1135,7 +1135,8 @@ video {
 
 input[type="text"],
 input[type="email"],
-input[type="date"] {
+input[type="date"],
+label {
   color: #453421 !important;
 }
 .form-control:focus,
