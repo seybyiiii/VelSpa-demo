@@ -79,8 +79,8 @@
                                                     <i class="fas fa-map-marker-alt cream me-2"></i>Parang, Marikina City
                                                 </a>
                                             </div>
-                                            <a href="contact.html" class="me-4 text-light"><i class="fas fa-phone-alt cream  me-2"></i>(02) 8637-5847</a>
-                                            <a href="contact.html" class="text-light"><i class="fas fa-envelope cream  me-2"></i>Velspatraditionalpinoyhilot@gmail.com</a>
+                                            <a href="../contact.html" class="me-4 text-light"><i class="fas fa-phone-alt cream  me-2"></i>(02) 8637-5847</a>
+                                            <a href="../contact.html" class="text-light"><i class="fas fa-envelope cream  me-2"></i>Velspatraditionalpinoyhilot@gmail.com</a>
                                         </div>
 
                                     </div>
@@ -99,7 +99,7 @@
                                     <div class="container-fluid p-0 align-items-center">
                                         <div class="col-5 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                                             <a href="index.html" >
-                                                <img src="img/velspa-brown.png" class="img-fluid d-inline-block align-top" alt="vel spa logo">
+                                                <img src="../img/velspa-brown.png" class="img-fluid d-inline-block align-top" alt="vel spa logo">
                                             </a>
                                         </div>
                                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,32 +109,32 @@
                                         <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                                             <ul class="navbar-nav ms-auto fw-bold border-topmob">
                                                 <li class="nav-item">
-                                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="about.html">About</a>
+                                                <a class="nav-link" href="../about.html">About</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="service.html">Services</a>
+                                                <a class="nav-link" href="../service.html">Services</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="franchise.html">Franchise</a>
+                                                <a class="nav-link" href="../franchise.html">Franchise</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                                <a class="nav-link" href="../contact.html">Contact Us</a>
                                                 </li>
                                                 <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Locations
                                                 </a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Marikina</a></li>
+                                                        <li><a class="dropdown-item" href="../location/parang-marikina.html">Marikina</a></li>
                                                         <li><a class="dropdown-item" href="#">Branch</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                             <ul class="navbar-nav ms-auto d-lg-inline-flex">
-                                                <a href="appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 mx-4">Book Appointment</a>
+                                                <a href="../appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 mx-4">Book Appointment</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -159,7 +159,7 @@
                                 <div class="col-md-12 col-lg-12 col-xl-4">
                                     <div class="footer-item">
                                         <div class="col-md-10 col-lg-10 col-xl-7 mb-4">
-                                            <img class="img-fluid" src="img/logo/all-white-vel-spa-logo - Cropped.png">
+                                            <img class="img-fluid" src="../img/logo/all-white-vel-spa-logo - Cropped.png">
                                         </div>
                                         <p class="text-white logo-seo">
                                             Vel Spa - Traditional Pinoy Hilot is your sanctuary for authentic Filipino 
@@ -341,19 +341,21 @@ $('.back-to-top').click(function () {
     });
 
     //NavBar
-    $(document).ready(function () {
+   $(document).ready(function () {
+    // Get just the filename (e.g., "about.html" or "branch.html")
         var currentPage = window.location.pathname.split("/").pop();
 
         if (currentPage === "") {
-            currentPage = "index.html"; // default home page
+            currentPage = "index.html";
         }
 
         $('.navbar-nav .nav-link').each(function () {
-            var linkPage = $(this).attr('href');
+            // Get only the filename part of the href (ignores folder paths)
+            var linkPage = $(this).attr('href').split("/").pop();
 
             if (linkPage === currentPage) {
-                $('.navbar-nav .nav-link').removeClass('active'); // remove from all
-                $(this).addClass('active'); // add to current
+                $('.navbar-nav .nav-link').removeClass('active');
+                $(this).addClass('active');
             }
         });
     });
