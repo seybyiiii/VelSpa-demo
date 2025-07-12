@@ -128,7 +128,7 @@
                                                     Locations
                                                 </a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="../location/parang-marikina.html">Marikina</a></li>
+                                                        <li><a class="dropdown-item" href="../location/parang-marikina.html">Parang Marikina</a></li>
                                                         <li><a class="dropdown-item" href="#">Branch</a></li>
                                                     </ul>
                                                 </li>
@@ -309,11 +309,6 @@ $('.back-to-top').click(function () {
     dotsEach: 1
 });
 
-    $(".owl-carousel").on('initialized.owl.carousel', function () {
-        var dots = $(this).find('.owl-dots');
-        $('#custom-dots-container').append(dots);
-    });
-
     // Testimonial-carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
@@ -323,10 +318,6 @@ $('.back-to-top').click(function () {
         loop: true,
         margin: 25,
         nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ],
         responsiveClass: true,
         responsive: {
             0:{
