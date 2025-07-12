@@ -233,6 +233,12 @@ $('.back-to-top').click(function () {
     return false;
 });
 
+// Appointment
+    const today = new Date().toISOString().split('T')[0];
+
+    // Set the value of the date input
+    document.getElementById('appointmentDate').value = today;
+
 
     // Location-carousel
     $(".location-carousel").owlCarousel({
