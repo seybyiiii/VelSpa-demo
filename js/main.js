@@ -109,7 +109,7 @@
                                         <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                                             <ul class="navbar-nav ms-auto fw-bold border-topmob">
                                                 <li class="nav-item">
-                                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                                <a class="nav-link" aria-current="page" href="/VelSpa-demo/index.html">Home</a>
                                                 </li>
                                                 <li class="nav-item">
                                                 <a class="nav-link" href="/VelSpa-demo/about.html">About</a>
