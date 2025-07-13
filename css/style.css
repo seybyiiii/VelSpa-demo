@@ -596,7 +596,7 @@ body.fade-in {
   }
 }
 
-@media (max-height:920px) {
+@media (max-height:600px) {
   .carousel-caption p {
     margin-bottom: 1rem !important;
   }
