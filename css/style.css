@@ -1138,7 +1138,7 @@ input[type="email"],
 input[type="date"],
 select {
   color: #453421 !important;
-  text-align: left 
+  text-align: left;
 }
 .form-control:focus,
 .form-select:focus {
@@ -1748,7 +1748,7 @@ select {
 }
 
 .h-125 {
-	height: 145px;
+	height: 125px;
 }
 
 @media (max-width:1400px) and (min-width:1200px) {
