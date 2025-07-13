@@ -107,40 +107,49 @@
                                 <h3 class="fs-4 text-uppercase celadon monteserrat text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">Contact Us</h3>
                                 <h1 class="display-4 mb-4 font-logo text-uppercase text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">Get In Touch</h1>
                             </div>
-                            <form action="mailto:myemail@email.com" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+                            
+                            <form action="https://formsubmit.co/rxc.design05@gmail.com" method="POST" target="_blank" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
                                 <div class="row gy-3 gx-4">
                                     <div class="col-lg-6">
-                                        <input type="text" class="form-control py-3 bg-transparent" placeholder="Name" required>
+                                        <input type="text" class="form-control py-3 bg-transparent" name="Name" placeholder="Name" required>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="email" class="form-control py-3 bg-transparent " placeholder="Email" required>
+                                        <input type="email" class="form-control py-3 bg-transparent" name="Email" placeholder="Email" required>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="number" class="form-control py-3 bg-transparent " placeholder="Phone number" required>
+                                        <input type="tel" class="form-control py-3 bg-transparent" name="Phone Number" placeholder="Phone number" required>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="email" class="form-control py-3 bg-transparent " placeholder="Company (if applicable)">
+                                        <input type="text" class="form-control py-3 bg-transparent" name="Company" placeholder="Company (if applicable)">
                                     </div>
                                     <div class="col-lg-12">
                                         <label for="branchSelect" class="form-label text-dark mb-2">How did you hear about us?</label>
-                                        <select id="branchSelect" class="form-select py-3 bg-transparent" style="cursor: pointer;" aria-label="Default select example">
-                                            <option value="1" selected>Social Media</option>
-                                            <option value="2">Search Engine</option>
-                                            <option value="3">Word of Mouth</option>
-                                            <option value="4">Advetisement</option>
-                                            <option value="5">Other</option>
+                                        <select id="branchSelect" class="form-select py-3 bg-transparent" name="Referral Source" style="cursor: pointer;" required>
+                                            <option value="Social Media" selected>Social Media</option>
+                                            <option value="Search Engine">Search Engine</option>
+                                            <option value="Word of Mouth">Word of Mouth</option>
+                                            <option value="Advertisement">Advertisement</option>
+                                            <option value="Other">Other</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea class="form-control bg-transparent" name="text" id="area-text" cols="30" rows="5" placeholder="Remarks" required></textarea>
+                                        <textarea class="form-control bg-transparent" name="Remarks" id="area-text" cols="30" rows="5" placeholder="Remarks" required></textarea>
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="submit" class="btn btn-contact btn-primary-outline-0 w-100">SUBMIT NOW</button>
                                     </div>
                                 </div>
+
+                                <!-- Hidden fields -->
+                                <input type="hidden" name="_subject" value="New Business Inquiry from Vel Spa">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
                             </form>
+
+
                         </div>
                     </div>
+                
                 </div>
             </div>
         </section>

@@ -1184,10 +1184,38 @@ video {
   border-radius: 10px;
 }
 
+option{
+  background-color: #f9f8f6;
+  color: #453421;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  border-radius: 10px !important;
+  z-index: 2;
+}
+
+option:hover, option:focus {
+  background: #aec8a4 !important;
+}
+
+option:checked {
+    font-weight: 600;
+    background: #aec8a4;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.25); /* light teal glow */
+  border-color: #009688;
+}
+
+select, ::picker(select) {
+    appearance: base-select;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="date"],
-select {
+select, textarea {
   color: #453421 !important;
   text-align: left;
 }

@@ -70,34 +70,41 @@
                                 <h3 class="fs-4 text-uppercase celadon monteserrat" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">Book with us</h3>
                                 <h1 class="display-4 mb-4 font-logo text-uppercase" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">Get Appointment</h1>
                             </div>
-                            <form action="mailto:myemail@email.com" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+                            <form action="https://formsubmit.co/5f1c6736ffb9ba39dc9d6bf95189f021" method="POST" target="_blank" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
                                 <div class="row gy-3 gx-4">
-                                    <div class="col-lg-6">
-                                        <input type="text" class="form-control py-3 bg-transparent" placeholder="Name" required>
+                                    <div class="col-lg-6 monteserrat">
+                                        <input type="text" name="Name" class="form-control py-3 bg-transparent" placeholder="Name" required>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <input type="email" class="form-control py-3 bg-transparent " placeholder="Email" required>
+                                    <div class="col-lg-6 monteserrat">
+                                        <input type="email" name="Email" class="form-control py-3 bg-transparent" placeholder="Email" required>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <select id="branchSelect" class="form-select py-3 bg-transparent" style="cursor: pointer;" aria-label="Default select example">
-                                            <option value="1" selected>Parang Marikina</option>
-                                            <option value="2">Marcos Highway</option>
-                                            <option value="3">Sta Lucia il-Centro</option>
-                                            <option value="4">Maybunga Pasig</option>
-                                            <option value="5">Cainta Junction</option>
-                                            <option value="6">Maia Alta Antipolo</option>
+                                    <div class="col-lg-6 monteserrat">
+                                        <select name="Branch" class=" styled-dropdown form-select py-3 bg-transparent" required>
+                                            <div class="styled-select">
+                                                <option value="Parang Marikina">Parang Marikina</option>
+                                                <option value="Marcos Highway">Marcos Highway</option>
+                                                <option value="Sta Lucia il-Centro">Sta Lucia il-Centro</option>
+                                                <option value="Maybunga Pasig">Maybunga Pasig</option>
+                                                <option value="Cainta Junction">Cainta Junction</option>
+                                                <option value="Maia Alta Antipolo">Maia Alta Antipolo</option>
+                                            </div>
                                         </select>
                                     </div>
-                                    <div class="col-lg-6" onclick="this.querySelector('input').showPicker()" style="cursor: pointer; user-select: none;">
-                                        <input type="date" id="appointmentDate" class="form-control py-3 bg-transparent" required>
+                                    <div class="col-lg-6 monteserrat">
+                                        <input type="date" name="Date" class="form-control py-3 bg-transparent" required>
                                     </div>
-                                    <div class="col-lg-12">
-                                        <textarea class="form-control bg-transparent" name="text" id="area-text" cols="30" rows="5" placeholder="Remarks" required></textarea>
+                                    <div class="col-lg-12 monteserrat">
+                                        <textarea class="form-control bg-transparent" name="Remarks" cols="30" rows="5" placeholder="Remarks" required></textarea>
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="submit" class="btn btn-appointment btn-primary-outline-0 w-100 py-3 px-5">SUBMIT NOW</button>
                                     </div>
                                 </div>
+
+                                <input type="hidden" name="_subject" value="New Appointment Request from Vel Spa">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
+
                             </form>
                         </div>
                     </div>
@@ -133,6 +140,21 @@
             </div>
         </div>
         <!-- Appointment End -->
+
+        <!-- Confirmation Modal -->
+        <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center p-4">
+            <div class="modal-header border-0">
+                <h5 class="modal-title w-100" id="appointmentModalLabel">Appointment Sent</h5>
+                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Your appointment request has been successfully submitted. We will get back to you shortly!</p>
+            </div>
+            </div>
+        </div>
+        </div>
 
 
 
