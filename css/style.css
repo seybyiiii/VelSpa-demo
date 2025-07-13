@@ -682,6 +682,18 @@ video {
   background-size: cover;
 }
 
+@media (max-width:768px) {
+  .bg-breadcrumb {
+     padding: 1rem !important;
+  }
+}
+
+@media (max-width:576px) {
+  .bg-breadcrumb {
+     padding: 0rem !important;
+  }
+}
+
 .bg-breadcrumb a {
   color: #aec8a4 !important;
 }
