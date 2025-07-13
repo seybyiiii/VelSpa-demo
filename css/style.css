@@ -589,6 +589,45 @@ body.fade-in {
 /*** Navbar End ***/
 
 /*** Carousel Start ***/
+@media (max-width:920px) {
+  .carousel-caption p {
+    font-size: 18px !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-height:920px) {
+  .carousel-caption p {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-height:550px) {
+  #carouselId .carousel-indicators {
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-height:375px) {
+  #carouselId .carousel-indicators {
+    padding-bottom: 0px !important;
+  }
+}
+
+#carouselId .carousel-indicators {
+    padding-bottom: 30px;
+}
+
+@media (max-width:475px) {
+  .carousel-caption p {
+    font-size: 14px !important;
+  }
+}
+
+.carousel-btn {
+
+}
+
 video {
   position: absolute;
   object-fit: cover;
