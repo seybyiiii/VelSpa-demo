@@ -326,37 +326,37 @@ $('.back-to-top').click(function () {
 
     // Opening Hours
     const openingHours = {
-        1: {
+        "Parang Marikina": {
             Location: "Parang Marikina",
             Weekdays: "1:00 am – 11:00 pm",
             Saturday: "1:00 am – 11:00 pm",
             Sunday: "1:00 am – 11:00 pm",
         },
-        2: {
+        "Marcos Highway": {
             Location: "Marcos Highway",
             Weekdays: "1:00 am – 11:00 pm",
             Saturday: "1:00 am – 11:00 pm",
             Sunday: "1:00 am – 11:00 pm",
         },
-        3: {
+        "Sta Lucia iL-centro": {
             Location: "Sta Lucia iL-centro",
             Weekdays: "10:00 am – 12:00 mn",
             Saturday: "10:00 am – 12:00 mn",
             Sunday: "10:00 am – 12:00 mn",
         },
-        4: {
+        "Maybunga Pasig": {
             Location: "Maybunga Pasig",
             Weekdays: "2:00 pm – 2:00 am",
             Saturday: "2:00 pm – 2:00 am",
             Sunday: "2:00 pm – 2:00 am",
         },
-        5: {
+        "Cainta Junction": {
             Location: "Cainta Junction",
             Weekdays: "2:00 pm – 2:00 am",
             Saturday: "2:00 pm – 2:00 am",
             Sunday: "2:00 pm – 2:00 am",
         },
-        6: {
+        "Maia Alta Antipolo": {
             Location: "Maia Alta Antipolo",
             Weekdays: "2:00 pm – 2:00 am",
             Saturday: "2:00 pm – 2:00 am",
