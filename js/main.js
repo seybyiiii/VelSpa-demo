@@ -137,7 +137,7 @@
                                 <div class="col-md-6 col-lg-6 col-xl-3">
                                     <div class="footer-item d-flex flex-column ps-4">
                                         <h4 class="mb-4 text-white monteserrat">Our Locations</h4>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Parang Marikina</a>
+                                        <a href="/VelSpa-demo/location/parang-marikina.html"><i class="fas fa-angle-right me-2"></i> Parang Marikina</a>
                                         <a href=""><i class="fas fa-angle-right me-2"></i> Marcos Highway</a>
                                         <a href=""><i class="fas fa-angle-right me-2"></i> Sta Lucia il-Centro</a>
                                         <a href=""><i class="fas fa-angle-right me-2"></i> Maybunga Pasig</a>
