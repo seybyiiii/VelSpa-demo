@@ -196,7 +196,7 @@
                                     <span class="text-light"><i class="fas fa-copyright text-light me-2"></i>2025 <a href="#" class="cc-highlight">Vel Spa</a>. All right reserved.</span>
                                 </div>
                                 <div class="col-md-4 text-center text-md-end text-white">
-                                    Designed By <a class="border-bottom cc-highlight" href="#">RXC Design</a>
+                                    Designed By <a class="cc-highlight" href="#">RXC Design</a>
                                 </div>
                             </div>
                         </div>
