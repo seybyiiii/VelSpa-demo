@@ -1970,17 +1970,13 @@ select, textarea {
 	align-items: stretch;
 }
 
-.location .location-item .location-content  {
-
-}
-
 .location .location-item .location-content .place {
 	font-size: 21px;
 	color: #453421;
 }
 
 .location .location-item .location-content .address {
-	font-size: 14px;
+	font-size: 13px;
 	color: #453421;
 	margin-bottom: 0px;
 }
@@ -2054,104 +2050,6 @@ select, textarea {
   background: #aec8a4; /* Active color */
 }
 /*** location End ***/
-
-/*** Team Start ***/
-.team .team-item {
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.team .team-item .team-text {
-  background: var(--bs-primary);
-}
-
-.team .team-item .team-social {
-  position: absolute;
-  top: -180px;
-  left: 20px;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.team .team-item:hover .team-social {
-  top: 20px;
-  left: 20px;
-  opacity: 1;
-}
-
-.team .team-item .team-img {
-  position: relative;
-  width: 100%;
-}
-
-.team .team-item .team-img::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: 0.5s ease;
-}
-
-.team .team-item:hover .team-img::after {
-  bottom: 0;
-  height: 100%;
-}
-
-.team .team-item .team-text {
-  transition: 0.5s;
-}
-
-.team .team-item:hover .team-text {
-  background: var(--bs-secondary);
-}
-/*** Team End ***/
-
-/*** testimonial Start ***/
-.testimonial {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/testimonial-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.testimonial .testimonial-item {
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.testimonial .owl-carousel.testimonial-carousel {
-  position: relative;
-}
-
-.testimonial .owl-carousel.testimonial-carousel .owl-nav {
-  position: absolute;
-  top: -60px;
-  right: 0;
-  display: flex;
-  font-size: 40px;
-  color: var(--bs-white);
-}
-
-.testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-prev {
-  margin-right: 40px;
-}
-
-.testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-prev,
-.testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-next {
-  transition: 0.5s;
-}
-
-.testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-next:hover {
-  color: var(--bs-primary);
-}
-/*** testimonial end ***/
 
 /*** Contact Start ***/
 
@@ -2434,6 +2332,7 @@ select, textarea {
 .location-content {
   font-size: 18px;
   margin-left: .5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .location-menu {
