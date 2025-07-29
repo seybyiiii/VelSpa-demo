@@ -2691,7 +2691,7 @@ select, textarea {
 }
 
 .footer {
-  background: #5b513e;
+  background: #c1b6a1;
 }
 
 .logo-seo {
@@ -2699,19 +2699,30 @@ select, textarea {
   text-align: justify;
 }
 
-.footer-icon i {
-  color: white;
+.footer-icon {
+  display: flex;
+  align-items: center;
+}
+
+.gcash {
+  width: 35px;
+  height: 30px;
+}
+
+.footer-icon i, .gcash g {
+  color: #453421;
+  fill: #453421;
   margin-right: 5px;
   font-size: 25px;
 }
 
-.footer-icon i:hover {
-  color: #aec8a4;
+.fw-600 {
+  font-weight: 600;
 }
 
 .footer .footer-item a,
 .footer .footer-item p {
-  color: var(--bs-white);
+  color: #453421;
   line-height: 40px;
   font-size: 17px;
   transition: 0.5s;
@@ -2720,12 +2731,12 @@ select, textarea {
 .footer-env,
 .fa-phone,
 .footer-map-pin {
-  color: #aec8a4;
+  color: #453421;
 }
 
 .footer .footer-item a:hover {
   letter-spacing: 2px;
-  color: #aec8a4;
+  color: #556729;
 }
 
 /*** Footer End ***/
