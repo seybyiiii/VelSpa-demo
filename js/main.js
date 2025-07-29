@@ -119,7 +119,7 @@
                                 <div class="col-md-12 col-lg-12 col-xl-4">
                                     <div class="footer-item">
                                         <div class="col-md-10 col-lg-10 col-xl-7 mb-4">
-                                            <img class="img-fluid" src="/VelSpa-demo/img/logo/vel-spa-logo-cropped.png">
+                                            <img class="img-fluid" src="/img/logo/vel-spa-logo-cropped.png">
                                         </div>
                                         <p class="cafe-noir logo-seo">
                                             Vel Spa - Traditional Pinoy Hilot is your sanctuary for authentic Filipino 
