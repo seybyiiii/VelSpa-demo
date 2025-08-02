@@ -89,7 +89,12 @@
                                                 </a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/parang-marikina.html">Parang Marikina</a></li>
-                                                        <li><a class="dropdown-item" href="#">Branch</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/marcos-highway.html">Marcos Highway</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/marcos-highway.html">Maybunga Pasig</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/marcos-highway.html">Sta. Lucia il-Centro</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/marcos-highway.html">Cainta Junction</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/marcos-highway.html">Maia Alta Antipolo</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/marcos-highway.html">Marcos Highway</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -141,11 +146,11 @@
                                     <div class="footer-item d-flex flex-column ps-4">
                                         <h4 class="mb-4 cafe-noir monteserrat fw-600 ">Our Locations</h4>
                                         <a href="/VelSpa-demo/location/parang-marikina.html"><i class="fas fa-angle-right me-2"></i> Parang Marikina</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Marcos Highway</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Sta Lucia il-Centro</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Maybunga Pasig</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Cainta Junction</a>
-                                        <a href=""><i class="fas fa-angle-right me-2"></i> Maia Alta Antipolo</a>
+                                        <a href="/VelSpa-demo/location/marcos-highway.html"><i class="fas fa-angle-right me-2"></i> Marcos Highway</a>
+                                        <a href="/VelSpa-demo/"><i class="fas fa-angle-right me-2"></i> Sta Lucia il-Centro</a>
+                                        <a href="/VelSpa-demo/"><i class="fas fa-angle-right me-2"></i> Maybunga Pasig</a>
+                                        <a href="/VelSpa-demo/"><i class="fas fa-angle-right me-2"></i> Cainta Junction</a>
+                                        <a href="/VelSpa-demo/"><i class="fas fa-angle-right me-2"></i> Maia Alta Antipolo</a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-3">
