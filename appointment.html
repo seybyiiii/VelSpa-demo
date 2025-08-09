@@ -79,7 +79,7 @@
                                         <input type="tel" name="Phone" class="form-control py-3 bg-transparent" placeholder="Phone Number" required>
                                     </div>
                                     <div class="col-lg-6 monteserrat">
-                                        <input type="num" name="Pax" class="form-control py-3 bg-transparent" placeholder="How many pax?" required>
+                                        <input type="number" name="Pax" class="form-control py-3 bg-transparent" placeholder="How many pax?" required>
                                     </div>
                                     <div class="col-lg-6 monteserrat">
                                         <input type="date" name="Date" class="form-control py-3 bg-transparent" required>
@@ -102,10 +102,10 @@
                                     </div>
                                 </div>
 
-                                <input type="hidden" name="_subject" value="New Appointment Request from Vel Spa">
+                                <!-- Hidden inputs -->
+                                <input type="hidden" name="_subject" id="emailSubject" value="New Appointment Request from Vel Spa">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">
-
                             </form>
                         </div>
                     </div>
@@ -141,23 +141,6 @@
             </div>
         </div>
         <!-- Appointment End -->
-
-        <!-- Confirmation Modal -->
-        <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content text-center p-4">
-            <div class="modal-header border-0">
-                <h5 class="modal-title w-100" id="appointmentModalLabel">Appointment Sent</h5>
-                <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Your appointment request has been successfully submitted. We will get back to you shortly!</p>
-            </div>
-            </div>
-        </div>
-        </div>
-
-
 
         <!-- Footer Start -->
         <my-footer></my-footer>

@@ -381,31 +381,13 @@ $('.back-to-top').click(function () {
         });
     });
 
+    // FormSubmit title
+    const branchSelect = document.getElementById('branchSelect');
+    const emailSubject = document.getElementById('emailSubject');
 
-    // Modal Video
-    $(document).ready(function () {
-        var $videoSrc;
-        $('.btn-play').click(function () {
-            $videoSrc = $(this).data("src");
-        });
-        console.log($videoSrc);
-
-        $('#videoModal').on('shown.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-        })
-
-        $('#videoModal').on('hide.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc);
-        })
+    branchSelect.addEventListener('change', function () {
+        emailSubject.value = `New Appointment Request - ${branchSelect.value}`;
     });
-
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 5,
-        time: 2000
-    });
-
-    this.querySelector('input').focus()
 
 })(jQuery);
 
