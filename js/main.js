@@ -396,7 +396,7 @@ $('.back-to-top').click(function () {
     function updateSubject() {
         const branch = branchSelect.value;
         const datePretty = formatDatePretty(dateSelect.value);
-        emailSubject.value = `VEL SPA ${branch} - Appointment Request on ${datePretty}  `;
+        emailSubject.value = `${datePretty} - VEL SPA ${branch} - Appointment Request on `;
     }
 
     // Update on page load
@@ -405,6 +405,6 @@ $('.back-to-top').click(function () {
     // Update when branch or date changes
     branchSelect.addEventListener('change', updateSubject);
     dateSelect.addEventListener('change', updateSubject);
-
+    
 })(jQuery);
 

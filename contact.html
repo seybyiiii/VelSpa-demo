@@ -109,7 +109,7 @@
                                 <h1 class="display-4 mb-4 font-logo text-uppercase text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">Get In Touch</h1>
                             </div>
                             
-                            <form action="https://formsubmit.co/bfd79fe9ee1d22c6b4c08385fd7f47f4" method="POST" target="_blank" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+                            <form action="https://formsubmit.co/bfd79fe9ee1d22c6b4c08385fd7f47f4" method="POST" target="_blank" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450" id="inquiryForm">
                                 <div class="row gy-3 gx-4">
                                     <div class="col-lg-6">
                                         <input type="text" class="form-control py-3 bg-transparent" name="Name" placeholder="Name" required>
@@ -142,7 +142,7 @@
                                 </div>
 
                                 <!-- Hidden fields -->
-                                <input type="hidden" name="_subject" value="New Business Inquiry from Vel Spa">
+                                <input type="hidden" name="_subject" id="emailSubject" value="">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">
                             </form>
@@ -182,6 +182,18 @@
         <script>
             AOS.init({
                 once: false, // important for retriggering on every scroll or event
+            });
+
+            const form = document.getElementById('inquiryForm');
+            const referralSource = document.getElementById('branchSelect');
+            const emailSubject = document.getElementById('emailSubject');
+
+            form.addEventListener('submit', function () {
+                const now = new Date();
+                const optionsDate = { year: 'numeric', month: 'long', day: 'numeric' };
+                const formattedDate = now.toLocaleDateString('en-US', optionsDate);
+
+                emailSubject.value = `New Business Inquiry - ${referralSource.value} - ${formattedDate}`;
             });
         </script>
 
