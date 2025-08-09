@@ -383,17 +383,28 @@ $('.back-to-top').click(function () {
 
     // FormSubmit title
     const branchSelect = document.getElementById('branchSelect');
+    const dateSelect = document.getElementById('dateSelect');
     const emailSubject = document.getElementById('emailSubject');
 
+    function formatDatePretty(dateStr) {
+        if (!dateStr) return "No Date Selected";
+        const dateObj = new Date(dateStr);
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return dateObj.toLocaleDateString('en-US', options);
+    }
+
     function updateSubject() {
-        emailSubject.value = `New Appointment Request - ${branchSelect.value}`;
+        const branch = branchSelect.value;
+        const datePretty = formatDatePretty(dateSelect.value);
+        emailSubject.value = `New Appointment Request - ${branch} - ${datePretty}`;
     }
 
     // Update on page load
     updateSubject();
 
-    // Update when branch changes
+    // Update when branch or date changes
     branchSelect.addEventListener('change', updateSubject);
+    dateSelect.addEventListener('change', updateSubject);
 
 })(jQuery);
 
