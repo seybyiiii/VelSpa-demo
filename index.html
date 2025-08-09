@@ -329,7 +329,7 @@
 
 
         <!-- Appointment Start -->
-        <div class="container-fluid d-flex appointment py-5" data-aos="fade-in"  data-aos-duration="700" data-aos-delay="100">
+        <div class="container-fluid d-flex appointment appointment1 py-5" data-aos="fade-in"  data-aos-duration="700" data-aos-delay="100">
             <div class="container py-5">
                 <div class="row g-5 align-items-stretch">
                     <div class="col-lg-7" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
@@ -338,16 +338,21 @@
                                 <h3 class="fs-4 text-uppercase celadon monteserrat" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">Book with us</h3>
                                 <h1 class="display-4 mb-4 font-logo text-uppercase" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">Get Appointment</h1>
                             </div>
-
                             <form action="https://formsubmit.co/bfd79fe9ee1d22c6b4c08385fd7f47f4" method="POST" target="_blank" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
                                 <div class="row gy-3 gx-4">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 monteserrat">
                                         <input type="text" name="Name" class="form-control py-3 bg-transparent" placeholder="Name" required>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 monteserrat">
                                         <input type="tel" name="Phone" class="form-control py-3 bg-transparent" placeholder="Phone Number" required>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 monteserrat">
+                                        <input type="num" name="Pax" class="form-control py-3 bg-transparent" placeholder="How many pax?" required>
+                                    </div>
+                                    <div class="col-lg-6 monteserrat">
+                                        <input type="date" name="Date" class="form-control py-3 bg-transparent" required>
+                                    </div>
+                                    <div class="col-lg-12 monteserrat">
                                         <select name="Branch" id="branchSelect" class="styled-dropdown form-select py-3 bg-transparent" required>
                                             <option value="Parang Marikina">Parang Marikina</option>
                                             <option value="Marcos Highway">Marcos Highway</option>
@@ -357,11 +362,8 @@
                                             <option value="Maia Alta Antipolo">Maia Alta Antipolo</option>
                                         </select>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <input type="date" name="Date" class="form-control py-3 bg-transparent" required>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <textarea class="form-control bg-transparent" name="Remarks" cols="30" rows="5" placeholder="Remarks" required></textarea>
+                                    <div class="col-lg-12 monteserrat">
+                                        <textarea class="form-control bg-transparent" name="Remarks" cols="30" rows="3" placeholder="Remarks" required></textarea>
                                     </div>
                                     <div class="col-lg-12">
                                         <button type="submit" class="btn btn-appointment btn-primary-outline-0 w-100 py-3 px-5">SUBMIT NOW</button>
