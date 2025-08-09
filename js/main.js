@@ -396,7 +396,7 @@ $('.back-to-top').click(function () {
     function updateSubject() {
         const branch = branchSelect.value;
         const datePretty = formatDatePretty(dateSelect.value);
-        emailSubject.value = `VEL SPA ${branch} Appointment Request on ${datePretty}  `;
+        emailSubject.value = `VEL SPA ${branch} - Appointment Request on ${datePretty}  `;
     }
 
     // Update on page load
