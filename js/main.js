@@ -385,9 +385,15 @@ $('.back-to-top').click(function () {
     const branchSelect = document.getElementById('branchSelect');
     const emailSubject = document.getElementById('emailSubject');
 
-    branchSelect.addEventListener('change', function () {
+    function updateSubject() {
         emailSubject.value = `New Appointment Request - ${branchSelect.value}`;
-    });
+    }
+
+    // Update on page load
+    updateSubject();
+
+    // Update when branch changes
+    branchSelect.addEventListener('change', updateSubject);
 
 })(jQuery);
 
