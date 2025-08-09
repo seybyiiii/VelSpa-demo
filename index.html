@@ -327,7 +327,6 @@
         </div>
         <!-- About End -->
 
-
         <!-- Appointment Start -->
         <div class="container-fluid d-flex appointment appointment1 py-5" data-aos="fade-in"  data-aos-duration="700" data-aos-delay="100">
             <div class="container py-5">
@@ -347,10 +346,10 @@
                                         <input type="tel" name="Phone" class="form-control py-3 bg-transparent" placeholder="Phone Number" required>
                                     </div>
                                     <div class="col-lg-6 monteserrat">
-                                        <input type="num" name="Pax" class="form-control py-3 bg-transparent" placeholder="How many pax?" required>
+                                        <input type="number" name="Pax" class="form-control py-3 bg-transparent" placeholder="How many pax?" required>
                                     </div>
                                     <div class="col-lg-6 monteserrat">
-                                        <input type="date" name="Date" class="form-control py-3 bg-transparent" required>
+                                        <input type="date" name="Date" id="dateSelect" class="form-control py-3 bg-transparent" required>
                                     </div>
                                     <div class="col-lg-12 monteserrat">
                                         <select name="Branch" id="branchSelect" class="styled-dropdown form-select py-3 bg-transparent" required>
@@ -370,10 +369,10 @@
                                     </div>
                                 </div>
 
-                                <input type="hidden" name="_subject" value="New Appointment Request from Vel Spa">
+                                <!-- Hidden inputs -->
+                                <input type="hidden" name="_subject" id="emailSubject" value="">
                                 <input type="hidden" name="_captcha" value="false">
                                 <input type="hidden" name="_template" value="table">
-
                             </form>
                         </div>
                     </div>
