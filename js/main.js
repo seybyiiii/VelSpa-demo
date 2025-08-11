@@ -347,7 +347,7 @@ $('.back-to-top').click(function () {
             Saturday: "1:00 am – 11:00 pm",
             Sunday: "1:00 am – 11:00 pm",
         },
-        "Sta Lucia iL-centro": {
+        "Sta Lucia il-Centro": {
             Location: "Sta Lucia iL-centro",
             Weekdays: "10:00 am – 12:00 mn",
             Saturday: "10:00 am – 12:00 mn",
