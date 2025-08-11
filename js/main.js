@@ -94,6 +94,7 @@
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/sta-lucia.html">Sta. Lucia il-Centro</a></li>
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/cainta-junction.html">Cainta Junction</a></li>
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/maia-alta.html">Maia Alta Antipolo</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/tugatog-malabon.html">Tugatog Malabon</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -150,6 +151,7 @@
                                         <a href="/VelSpa-demo/location/maybunga-pasig.html"><i class="fas fa-angle-right me-2"></i> Maybunga Pasig</a>
                                         <a href="/VelSpa-demo/location/cainta-junction.html"><i class="fas fa-angle-right me-2"></i> Cainta Junction</a>
                                         <a href="/VelSpa-demo/location/maia-alta.html"><i class="fas fa-angle-right me-2"></i> Maia Alta Antipolo</a>
+                                        <a href="/VelSpa-demo/location/tugatog-malabon.html"><i class="fas fa-angle-right me-2"></i> Tugatog Malabon</a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-3">
