@@ -1215,6 +1215,8 @@ select, ::picker(select) {
 input[type="text"],
 input[type="email"],
 input[type="date"],
+input[type="number"],
+input[type="tel"],
 select, textarea {
   color: #453421 !important;
   text-align: left;
