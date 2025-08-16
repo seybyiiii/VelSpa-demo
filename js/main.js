@@ -337,9 +337,9 @@ $('.back-to-top').click(function () {
     const openingHours = {
         "Parang Marikina": {
             Location: "Parang Marikina",
-            Weekdays: "1:00 am – 11:00 pm",
-            Saturday: "1:00 am – 11:00 pm",
-            Sunday: "1:00 am – 11:00 pm",
+            Weekdays: "1:00 pm – 11:00 pm",
+            Saturday: "1:00 pm – 11:00 pm",
+            Sunday: "1:00 pm – 11:00 pm",
         },
         "Marcos Highway": {
             Location: "Marcos Highway",
