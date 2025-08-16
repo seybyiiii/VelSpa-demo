@@ -156,7 +156,7 @@
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-3">
                                     <div class="footer-item d-flex flex-column ps-4">
-                                        <h4 class="mb-4 cafe-noir monteserrat fw-600 ">Main Address</h4>
+                                        <h4 class="mb-4 cafe-noir monteserrat fw-600 ">Head Office</h4>
                                         <div class="row">
                                             <div class="col-1">
                                                 <i class="pin-icon fas fa-map-marker-alt footer-map-pin me-2"></i> 
