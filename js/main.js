@@ -129,7 +129,7 @@
                                         <p class="cafe-noir logo-seo">
                                             Vel Spa - Traditional Pinoy Hilot is your sanctuary for authentic Filipino 
                                             healing and relaxation. Our spa specializes in a traditional form 
-                                            of healing massage that harmonizes the body, mind, and spirit.
+                                            of healing massage that harmonizes the body, and spirit.
                                         </p>
                                         <h4 class="fw-600 cafe-noir mt-4 monteserrat">We Accept</h4>
                                         <div class="card-area cafe-noir footer-icon">
