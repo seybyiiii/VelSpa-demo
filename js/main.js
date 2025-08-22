@@ -343,9 +343,9 @@ $('.back-to-top').click(function () {
         },
         "Marcos Highway": {
             Location: "Marcos Highway",
-            Weekdays: "1:00 am – 11:00 pm",
-            Saturday: "1:00 am – 11:00 pm",
-            Sunday: "1:00 am – 11:00 pm",
+            Weekdays: "1:00 pm – 11:00 pm",
+            Saturday: "1:00 pm – 11:00 pm",
+            Sunday: "1:00 pm – 11:00 pm",
         },
         "Sta Lucia il-Centro": {
             Location: "Sta Lucia iL-centro",
