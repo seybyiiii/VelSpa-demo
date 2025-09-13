@@ -628,7 +628,7 @@ body.fade-in {
 
 }
 
-video {
+.video {
   position: absolute;
   object-fit: cover;
   top: 50%;
