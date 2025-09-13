@@ -372,6 +372,18 @@ $('.back-to-top').click(function () {
             Weekdays: "2:00 pm – 2:00 am",
             Saturday: "2:00 pm – 2:00 am",
             Sunday: "2:00 pm – 2:00 am",
+        },
+        "Tugatog Malabon": {
+            Location: "Tugatog Malabon",
+            Weekdays: "1:00 pm – 12:00 mn",
+            Saturday: "1:00 pm – 12:00 mm",
+            Sunday: "1:00 pm – 12:00 mm",
+        },
+        "Tanchoco Taytay": {
+            Location: "Tanchoco Taytay",
+            Weekdays: "1:00 pm – 12:00 mn",
+            Saturday: "1:00 pm – 12:00 mm",
+            Sunday: "1:00 pm – 12:00 mm",
         }
     };
 
