@@ -95,6 +95,7 @@
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/cainta-junction.html">Cainta Junction</a></li>
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/maia-alta.html">Maia Alta Antipolo</a></li>
                                                         <li><a class="dropdown-item" href="/VelSpa-demo/location/tugatog-malabon.html">Tugatog Malabon</a></li>
+                                                        <li><a class="dropdown-item" href="/VelSpa-demo/location/tanchoco-taytay.html">Tanchoco Taytay</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
